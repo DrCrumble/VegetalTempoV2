@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B2F8EC5-849A-46EE-8B40-50C2540234B1}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{9B2F8EC5-849A-46EE-8B40-50C2540234B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="New Modulator Envelope" ID="{AC2F32E3-7254-42DB-BB47-A68FE97C92B5}" ShortID="645504738"/>
+				<ModulatorEnvelope Name="New Modulator Envelope_01" ID="{8CA1C020-9A7C-4785-91A2-405CFD68A2C2}" ShortID="5386200">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.489"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0F83F456-9501-4165-8EBF-C520CCBABFC3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

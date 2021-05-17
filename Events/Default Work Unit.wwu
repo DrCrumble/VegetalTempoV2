@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_music_loop" ID="{B5F2058E-7730-44CB-8AA6-476444C25814}">
+					<ChildrenList>
+						<Action Name="" ID="{A00EC229-EEB7-424F-B48F-6DAB06C35758}" ShortID="529476923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLoop" ID="{7A1F8C60-298C-44E7-A446-7ECFAE8D94C6}" WorkUnitID="{FBA26E4E-D3F2-41D2-BBA3-60DB1ECE309E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E5690EDE-558F-4161-B3AA-98636AABC5F5}" ShortID="200881905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leaf_Movement" ID="{A7CDAB71-216E-499C-B67D-09AC78AC47F1}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Growth_Stop" ID="{76A8F5B4-E31F-4A2F-9750-F8CBFE428DC2}">
+					<ChildrenList>
+						<Action Name="" ID="{A03141F7-D721-4232-BDC7-73BBEAE4C3F6}" ShortID="558797129">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Growth_Stop" ID="{DE6A2C3C-B07F-4365-8506-39F9BC5DBB64}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE99BF7C-59C9-4808-A074-5C97DBDB324E}" ShortID="108944276">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Growth_Stop" ID="{493D4015-A02E-4653-9F06-399B234E8F1C}" WorkUnitID="{7BA3A096-3881-4643-96AE-4CAACBBBBED1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HighFive" ID="{E00443BB-C254-4533-AB59-C71BAF166198}">
+					<ChildrenList>
+						<Action Name="" ID="{FE929407-56B2-4D43-B816-FA3C3A6566CB}" ShortID="925148331">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HighFive" ID="{46CD64F8-1ABD-4847-B526-43AE6F6853B6}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_HighFive" ID="{D77F40CA-2800-462D-BC6B-172ABC48E7C0}">
+					<ChildrenList>
+						<Action Name="" ID="{F77167EC-2C54-4FB2-98C7-FDA4CF29F1AF}" ShortID="95583308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HighFive" ID="{46CD64F8-1ABD-4847-B526-43AE6F6853B6}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LeafFall" ID="{2313D847-5435-4527-8D29-7224B5EB28EF}">
+					<ChildrenList>
+						<Action Name="" ID="{99E702B8-CDBF-4FFC-8183-B2F0F74D7974}" ShortID="753071939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="On" ID="{0CC40B17-E367-4716-B835-5449A9A29C08}" WorkUnitID="{3DF7AA2E-04B2-4A6F-B336-FBC44659ABBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4D05953E-3CE5-4F30-AE1C-B7FA43F1758A}" ShortID="656219922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeafFall" ID="{17515F9B-7C23-4887-AC0D-48215D708BEE}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_LeafFall" ID="{A345B96D-805B-49F7-AE7E-641B3EBF7431}">
+					<ChildrenList>
+						<Action Name="" ID="{5B1B2003-E145-4BE9-8EB6-7288E2747998}" ShortID="42548502">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}" WorkUnitID="{3DF7AA2E-04B2-4A6F-B336-FBC44659ABBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

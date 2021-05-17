@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{91A450D1-B982-4F64-A6C3-76BE470F3A9D}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{91A450D1-B982-4F64-A6C3-76BE470F3A9D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{E27E3EE6-7DF1-444A-A2AE-E3810B40CE9F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_music_loop" ID="{B5F2058E-7730-44CB-8AA6-476444C25814}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Growth_Stop" ID="{76A8F5B4-E31F-4A2F-9750-F8CBFE428DC2}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_LeafFall" ID="{2313D847-5435-4527-8D29-7224B5EB28EF}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_LeafFall" ID="{A345B96D-805B-49F7-AE7E-641B3EBF7431}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HighFive" ID="{E00443BB-C254-4533-AB59-C71BAF166198}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_HighFive" ID="{D77F40CA-2800-462D-BC6B-172ABC48E7C0}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Blossom" ID="{8FEF232C-75C8-45CC-AFD9-8B1958E2A6EA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Movement" ID="{7753B14B-61E9-47B5-91EB-EACE41C332C8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Off" ID="{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

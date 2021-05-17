@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>E:\TAMANOIR\Vegetal Tempo Wwise\</ProjectRoot>
+		<SourceFilesRoot>E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\TAMANOIR\Vegetal Tempo Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\TAMANOIR\Vegetal Tempo Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3483159727">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4178261808">
+			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
+			<ShortName>MAIN</ShortName>
+			<Path>MAIN.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1644680122" Name="Play_Growth_Stop" ObjectPath="\Events\Default Work Unit\Play_Growth_Stop">
+					<IncludedMemoryFiles>
+						<File Id="85529368" Language="SFX">
+							<ShortName>Shine_05.wav</ShortName>
+							<Path>SFX\Shine_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="237965506" Language="SFX">
+							<ShortName>Shine_02.wav</ShortName>
+							<Path>SFX\Shine_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="587462837" Language="SFX">
+							<ShortName>Shine_03.wav</ShortName>
+							<Path>SFX\Shine_03_B09F49DF.wem</Path>
+						</File>
+						<File Id="742124412" Language="SFX">
+							<ShortName>Shine_04.wav</ShortName>
+							<Path>SFX\Shine_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="753176445" Language="SFX">
+							<ShortName>Shine_01.wav</ShortName>
+							<Path>SFX\Shine_01_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1136114703" Name="Growth_Stop" ObjectPath="\Triggers\Default Work Unit\Growth_Stop"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1412912066" Name="Play_HighFive" ObjectPath="\Events\Default Work Unit\Play_HighFive">
+					<IncludedMemoryFiles>
+						<File Id="99677188" Language="SFX">
+							<ShortName>HighFive_02.wav</ShortName>
+							<Path>SFX\HighFive_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="223925211" Language="SFX">
+							<ShortName>HighFive_04.wav</ShortName>
+							<Path>SFX\HighFive_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="544509048" Language="SFX">
+							<ShortName>HighFive_05.wav</ShortName>
+							<Path>SFX\HighFive_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="664409511" Language="SFX">
+							<ShortName>HighFive_03.wav</ShortName>
+							<Path>SFX\HighFive_03_B09F49DF.wem</Path>
+						</File>
+						<File Id="834661584" Language="SFX">
+							<ShortName>HighFive_01.wav</ShortName>
+							<Path>SFX\HighFive_01_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="903083053" Name="Play_LeafFall" ObjectPath="\Events\Default Work Unit\Play_LeafFall">
+					<IncludedMemoryFiles>
+						<File Id="16728652" Language="SFX">
+							<ShortName>LeafFall_Loop_02.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="32979619" Language="SFX">
+							<ShortName>LeafFall_Start_01.wav</ShortName>
+							<Path>SFX\LeafFall_Start_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="131979143" Language="SFX">
+							<ShortName>LeafFall_Stop_04.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="180012928" Language="SFX">
+							<ShortName>LeafFall_Loop_04.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="411861833" Language="SFX">
+							<ShortName>LeafFall_Stop_01.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="447039209" Language="SFX">
+							<ShortName>LeafFall_Stop_05.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="454805968" Language="SFX">
+							<ShortName>LeafFall_Start_02.wav</ShortName>
+							<Path>SFX\LeafFall_Start_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="577055431" Language="SFX">
+							<ShortName>LeafFall_Start_04.wav</ShortName>
+							<Path>SFX\LeafFall_Start_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="626665584" Language="SFX">
+							<ShortName>LeafFall_Loop_06.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_06_B09F49DF.wem</Path>
+						</File>
+						<File Id="721965443" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_04.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="751145862" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_07.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_07_B09F49DF.wem</Path>
+						</File>
+						<File Id="760449538" Language="SFX">
+							<ShortName>LeafFall_Stop_02.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="814726436" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_06.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_06_B09F49DF.wem</Path>
+						</File>
+						<File Id="902205088" Language="SFX">
+							<ShortName>LeafFall_Loop_01.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="905433119" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_08.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_08_B09F49DF.wem</Path>
+						</File>
+						<File Id="930930447" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_02.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="949099391" Language="SFX">
+							<ShortName>LeafFall_Stop_03.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_03_B09F49DF.wem</Path>
+						</File>
+						<File Id="982420985" Language="SFX">
+							<ShortName>LeafFall_Start_03.wav</ShortName>
+							<Path>SFX\LeafFall_Start_03_B09F49DF.wem</Path>
+						</File>
+						<File Id="993143814" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_05.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="1048140128" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_03.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_03_B09F49DF.wem</Path>
+						</File>
+						<File Id="1049796522" Language="SFX">
+							<ShortName>LeafFall_Loop_05.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="1067003130" Language="SFX">
+							<ShortName>LeafFall_Loop_v3_01.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_v3_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="1069931001" Language="SFX">
+							<ShortName>LeafFall_Loop_03.wav</ShortName>
+							<Path>SFX\LeafFall_Loop_03_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}">
+							<Media>
+								<File Id="131979143"/>
+								<File Id="411861833"/>
+								<File Id="447039209"/>
+								<File Id="760449538"/>
+								<File Id="949099391"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0CC40B17-E367-4716-B835-5449A9A29C08}">
+							<Media>
+								<File Id="16728652"/>
+								<File Id="32979619"/>
+								<File Id="180012928"/>
+								<File Id="454805968"/>
+								<File Id="577055431"/>
+								<File Id="626665584"/>
+								<File Id="721965443"/>
+								<File Id="751145862"/>
+								<File Id="814726436"/>
+								<File Id="902205088"/>
+								<File Id="905433119"/>
+								<File Id="930930447"/>
+								<File Id="982420985"/>
+								<File Id="993143814"/>
+								<File Id="1048140128"/>
+								<File Id="1049796522"/>
+								<File Id="1067003130"/>
+								<File Id="1069931001"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\LeafFall\On"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="433710372" Name="Play_music_loop" ObjectPath="\Events\Default Work Unit\Play_music_loop">
+					<IncludedMemoryFiles>
+						<File Id="59334016" Language="SFX">
+							<ShortName>LeafMovement_Low_01.wav</ShortName>
+							<Path>SFX\LeafMovement_Low_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="132146298" Language="SFX">
+							<ShortName>music_loop_03.wav</ShortName>
+							<Path>SFX\music_loop_03_4811579D.wem</Path>
+						</File>
+						<File Id="154888131" Language="SFX">
+							<ShortName>LeafMovement_Low_05.wav</ShortName>
+							<Path>SFX\LeafMovement_Low_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="197288156" Language="SFX">
+							<ShortName>LeafMovement_High_05.wav</ShortName>
+							<Path>SFX\LeafMovement_High_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="218625319" Language="SFX">
+							<ShortName>music_loop_04.wav</ShortName>
+							<Path>SFX\music_loop_04_4811579D.wem</Path>
+						</File>
+						<File Id="268712014" Language="SFX">
+							<ShortName>LeafMovement_High_04.wav</ShortName>
+							<Path>SFX\LeafMovement_High_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="296742418" Language="SFX">
+							<ShortName>LeafMovement_Low_03.wav</ShortName>
+							<Path>SFX\LeafMovement_Low_03_B09F49DF.wem</Path>
+						</File>
+						<File Id="348364339" Language="SFX">
+							<ShortName>Wazo_01.wav</ShortName>
+							<Path>SFX\Wazo_01_4811579D.wem</Path>
+						</File>
+						<File Id="368388430" Language="SFX">
+							<ShortName>LeafMovement_Low_02.wav</ShortName>
+							<Path>SFX\LeafMovement_Low_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="659713395" Language="SFX">
+							<ShortName>Wazo_03.wav</ShortName>
+							<Path>SFX\Wazo_03_4811579D.wem</Path>
+						</File>
+						<File Id="666594684" Language="SFX">
+							<ShortName>LeafMovement_High_01.wav</ShortName>
+							<Path>SFX\LeafMovement_High_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="765256063" Language="SFX">
+							<ShortName>LeafMovement_High_02.wav</ShortName>
+							<Path>SFX\LeafMovement_High_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="791371447" Language="SFX">
+							<ShortName>Wazo_04.wav</ShortName>
+							<Path>SFX\Wazo_04_4811579D.wem</Path>
+						</File>
+						<File Id="814280512" Language="SFX">
+							<ShortName>LeafMovement_Mid.wav</ShortName>
+							<Path>SFX\LeafMovement_Mid_89A5DE52.wem</Path>
+						</File>
+						<File Id="895464548" Language="SFX">
+							<ShortName>music_loop_01.wav</ShortName>
+							<Path>SFX\music_loop_01_4811579D.wem</Path>
+						</File>
+						<File Id="906246835" Language="SFX">
+							<ShortName>LeafMovement_Low_04.wav</ShortName>
+							<Path>SFX\LeafMovement_Low_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="1009371544" Language="SFX">
+							<ShortName>Wazo_05.wav</ShortName>
+							<Path>SFX\Wazo_05_4811579D.wem</Path>
+						</File>
+						<File Id="1011115143" Language="SFX">
+							<ShortName>Wazo_02.wav</ShortName>
+							<Path>SFX\Wazo_02_4811579D.wem</Path>
+						</File>
+						<File Id="1021678743" Language="SFX">
+							<ShortName>music_loop_02.wav</ShortName>
+							<Path>SFX\music_loop_02_4811579D.wem</Path>
+						</File>
+						<File Id="1035585106" Language="SFX">
+							<ShortName>LeafMovement_High_03.wav</ShortName>
+							<Path>SFX\LeafMovement_High_03_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3587344308" Name="Stop_HighFive" ObjectPath="\Events\Default Work Unit\Stop_HighFive"/>
+				<Event Id="1947674443" Name="Stop_LeafFall" ObjectPath="\Events\Default Work Unit\Stop_LeafFall">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\LeafFall\Off"/>
+					</ActionSetSwitch>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2129636626" Name="Movement" ObjectPath="\Game Parameters\Default Work Unit\Movement"/>
+				<GameParameter Id="2496773192" Name="Blossom" ObjectPath="\Game Parameters\Default Work Unit\Blossom"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\LeafFall\Off">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1489435958" Name="LeafFall" ObjectPath="\Switches\Default Work Unit\LeafFall">
+					<Switches>
+						<Switch Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\LeafFall\On"/>
+						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\LeafFall\Off"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\LeafFall\On">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="1136114703" Name="Growth_Stop" ObjectPath="\Triggers\Default Work Unit\Growth_Stop"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

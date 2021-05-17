@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51CC4BE7-49E7-4FB5-9BAA-16FB27834C2A}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{51CC4BE7-49E7-4FB5-9BAA-16FB27834C2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MAIN" ID="{165A802E-2B32-47E9-B205-8EE2C7BD35FE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_music_loop" ID="{B5F2058E-7730-44CB-8AA6-476444C25814}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LeafFall" ID="{2313D847-5435-4527-8D29-7224B5EB28EF}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HighFive" ID="{E00443BB-C254-4533-AB59-C71BAF166198}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_HighFive" ID="{D77F40CA-2800-462D-BC6B-172ABC48E7C0}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_LeafFall" ID="{A345B96D-805B-49F7-AE7E-641B3EBF7431}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Growth_Stop" ID="{76A8F5B4-E31F-4A2F-9750-F8CBFE428DC2}" WorkUnitID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

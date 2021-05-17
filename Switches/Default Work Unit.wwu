@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3DF7AA2E-04B2-4A6F-B336-FBC44659ABBA}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{3DF7AA2E-04B2-4A6F-B336-FBC44659ABBA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="LeafFall" ID="{95485BA7-D4E4-4252-A799-7A8A084C1030}">
+					<ChildrenList>
+						<Switch Name="On" ID="{0CC40B17-E367-4716-B835-5449A9A29C08}"/>
+						<Switch Name="Off" ID="{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
