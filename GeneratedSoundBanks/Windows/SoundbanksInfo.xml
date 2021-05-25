@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\TAMANOIR\Vegetal Tempo Wwise\</ProjectRoot>
-		<SourceFilesRoot>E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\TAMANOIR\Vegetal Tempo Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\TAMANOIR\VegetalTempoV2\</ProjectRoot>
+		<SourceFilesRoot>E:\TAMANOIR\VegetalTempoV2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\TAMANOIR\VegetalTempoV2\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\TAMANOIR\Vegetal Tempo Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\TAMANOIR\VegetalTempoV2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3483159727">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3948749773">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4178261808">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1919012580">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -167,43 +167,6 @@
 							<Path>SFX\LeafFall_Loop_03_B09F49DF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}">
-							<Media>
-								<File Id="131979143"/>
-								<File Id="411861833"/>
-								<File Id="447039209"/>
-								<File Id="760449538"/>
-								<File Id="949099391"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{0CC40B17-E367-4716-B835-5449A9A29C08}">
-							<Media>
-								<File Id="16728652"/>
-								<File Id="32979619"/>
-								<File Id="180012928"/>
-								<File Id="454805968"/>
-								<File Id="577055431"/>
-								<File Id="626665584"/>
-								<File Id="721965443"/>
-								<File Id="751145862"/>
-								<File Id="814726436"/>
-								<File Id="902205088"/>
-								<File Id="905433119"/>
-								<File Id="930930447"/>
-								<File Id="982420985"/>
-								<File Id="993143814"/>
-								<File Id="1048140128"/>
-								<File Id="1049796522"/>
-								<File Id="1067003130"/>
-								<File Id="1069931001"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\LeafFall\On"/>
-					</ActionSetSwitch>
 				</Event>
 				<Event Id="433710372" Name="Play_music_loop" ObjectPath="\Events\Default Work Unit\Play_music_loop">
 					<IncludedMemoryFiles>
@@ -291,29 +254,34 @@
 				</Event>
 				<Event Id="3587344308" Name="Stop_HighFive" ObjectPath="\Events\Default Work Unit\Stop_HighFive"/>
 				<Event Id="1947674443" Name="Stop_LeafFall" ObjectPath="\Events\Default Work Unit\Stop_LeafFall">
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\LeafFall\Off"/>
-					</ActionSetSwitch>
+					<IncludedMemoryFiles>
+						<File Id="131979143" Language="SFX">
+							<ShortName>LeafFall_Stop_04.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_04_B09F49DF.wem</Path>
+						</File>
+						<File Id="411861833" Language="SFX">
+							<ShortName>LeafFall_Stop_01.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_01_B09F49DF.wem</Path>
+						</File>
+						<File Id="447039209" Language="SFX">
+							<ShortName>LeafFall_Stop_05.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_05_B09F49DF.wem</Path>
+						</File>
+						<File Id="760449538" Language="SFX">
+							<ShortName>LeafFall_Stop_02.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_02_B09F49DF.wem</Path>
+						</File>
+						<File Id="949099391" Language="SFX">
+							<ShortName>LeafFall_Stop_03.wav</ShortName>
+							<Path>SFX\LeafFall_Stop_03_B09F49DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2129636626" Name="Movement" ObjectPath="\Game Parameters\Default Work Unit\Movement"/>
 				<GameParameter Id="2496773192" Name="Blossom" ObjectPath="\Game Parameters\Default Work Unit\Blossom"/>
 			</GameParameters>
-			<SwitchGroups>
-				<SwitchGroup Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\LeafFall\Off">
-					<Switches/>
-				</SwitchGroup>
-				<SwitchGroup Id="1489435958" Name="LeafFall" ObjectPath="\Switches\Default Work Unit\LeafFall">
-					<Switches>
-						<Switch Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\LeafFall\On"/>
-						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\LeafFall\Off"/>
-					</Switches>
-				</SwitchGroup>
-				<SwitchGroup Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\LeafFall\On">
-					<Switches/>
-				</SwitchGroup>
-			</SwitchGroups>
 			<Triggers>
 				<Trigger Id="1136114703" Name="Growth_Stop" ObjectPath="\Triggers\Default Work Unit\Growth_Stop"/>
 			</Triggers>

@@ -75,20 +75,20 @@
 				</Event>
 				<Event Name="Play_LeafFall" ID="{2313D847-5435-4527-8D29-7224B5EB28EF}">
 					<ChildrenList>
-						<Action Name="" ID="{99E702B8-CDBF-4FFC-8183-B2F0F74D7974}" ShortID="753071939">
+						<Action Name="" ID="{4D05953E-3CE5-4F30-AE1C-B7FA43F1758A}" ShortID="656219922">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="On" ID="{0CC40B17-E367-4716-B835-5449A9A29C08}" WorkUnitID="{3DF7AA2E-04B2-4A6F-B336-FBC44659ABBA}"/>
+									<ObjectRef Name="LeafFall" ID="{F4038B91-CEC2-4DA8-96E8-1BFB7679F989}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{4D05953E-3CE5-4F30-AE1C-B7FA43F1758A}" ShortID="656219922">
+						<Action Name="" ID="{8B0A615B-4F46-4889-B92E-B0A9ECF0540D}" ShortID="132969040">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="LeafFall" ID="{17515F9B-7C23-4887-AC0D-48215D708BEE}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+									<ObjectRef Name="LeafFall_Stop" ID="{E0793FD9-B4FD-484C-8713-CFB9A4E3346B}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -96,13 +96,21 @@
 				</Event>
 				<Event Name="Stop_LeafFall" ID="{A345B96D-805B-49F7-AE7E-641B3EBF7431}">
 					<ChildrenList>
-						<Action Name="" ID="{5B1B2003-E145-4BE9-8EB6-7288E2747998}" ShortID="42548502">
+						<Action Name="" ID="{74C876C9-B89A-488C-A09A-C98BEFCD1AAE}" ShortID="139499570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeafFall_Stop" ID="{E0793FD9-B4FD-484C-8713-CFB9A4E3346B}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3340628C-F3DE-44A3-9C38-9E350B5A4DBC}" ShortID="409004498">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Off" ID="{C5E96F2E-5CCD-4810-B0F6-403EEB5978D0}" WorkUnitID="{3DF7AA2E-04B2-4A6F-B336-FBC44659ABBA}"/>
+									<ObjectRef Name="LeafFall" ID="{F4038B91-CEC2-4DA8-96E8-1BFB7679F989}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

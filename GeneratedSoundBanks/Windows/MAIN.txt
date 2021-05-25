@@ -6,13 +6,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1947674443	Stop_LeafFall			\Default Work Unit\Stop_LeafFall	
 	3587344308	Stop_HighFive			\Default Work Unit\Stop_HighFive	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	1489435958	LeafFall			\Default Work Unit\LeafFall	
-
-Switch	ID	Name	Switch Group			Notes
-	930712164	Off	LeafFall			
-	1651971902	On	LeafFall			
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2129636626	Movement			\Default Work Unit\Movement	
 	2496773192	Blossom			\Default Work Unit\Blossom	
@@ -25,57 +18,57 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	1136114703	Growth_Stop			\Default Work Unit\Growth_Stop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	16728652	Grass_Loop_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\Grass_Loop\Grass_Loop_02		216064
-	32979619	LeafFall_Start_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Start_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Start\LeafFall_Start_01		108064
-	59334016	LeafMovement_Low_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_Low_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_01		918064
-	85529368	Shine_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Shine_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_05		394480
-	99677188	HighFive_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\HighFive_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_02		324064
-	131979143	LeafFall_Stop_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Stop_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Stop\LeafFall_Stop_04		648064
-	132146298	music_loop_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\music_loop_03_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_03		5556592
-	154888131	LeafMovement_Low_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_Low_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_05		918064
-	180012928	Grass_Loop_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\Grass_Loop\Grass_Loop_04		216064
-	197288156	LeafMovement_High_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_High_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_05		918064
-	218625319	music_loop_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\music_loop_04_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_04		5556592
-	223925211	HighFive_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\HighFive_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_04		324064
-	237965506	Shine_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Shine_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_02		421048
-	268712014	LeafMovement_High_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_High_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_04		918064
-	296742418	LeafMovement_Low_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_Low_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_03		918064
-	348364339	Wazo_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Wazo_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		378064
-	368388430	LeafMovement_Low_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_Low_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_02		918064
-	411861833	LeafFall_Stop_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Stop_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Stop\LeafFall_Stop_01		633592
-	447039209	LeafFall_Stop_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Stop_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Stop\LeafFall_Stop_05		621064
-	454805968	LeafFall_Start_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Start_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Start\LeafFall_Start_02		127360
-	544509048	HighFive_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\HighFive_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_05		270064
-	577055431	LeafFall_Start_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Start_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Start\LeafFall_Start_04		101152
-	587462837	Shine_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Shine_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_03		415648
-	626665584	Grass_Loop_06	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_06_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\Grass_Loop\Grass_Loop_06		216064
-	659713395	Wazo_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Wazo_03_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		432064
-	664409511	HighFive_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\HighFive_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_03		324064
-	666594684	LeafMovement_High_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_High_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_01		918064
-	721965443	LeafFall_Loop_v3_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_04		432064
-	742124412	Shine_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Shine_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_04		388000
-	751145862	LeafFall_Loop_v3_07	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_07_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_07		432064
-	753176445	Shine_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Shine_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_01		420616
-	760449538	LeafFall_Stop_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Stop_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Stop\LeafFall_Stop_02		648064
-	765256063	LeafMovement_High_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_High_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_02		918064
-	791371447	Wazo_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Wazo_04_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		405064
-	814280512	LeafMovement_Mid	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_Mid_89A5DE52.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Mid\LeafMovement_Mid		2000800
-	814726436	LeafFall_Loop_v3_06	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_06_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_06		432064
-	834661584	HighFive_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\HighFive_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_01		270064
-	895464548	music_loop_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\music_loop_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_01		5556592
-	902205088	Grass_Loop_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\Grass_Loop\Grass_Loop_01		216064
-	905433119	LeafFall_Loop_v3_08	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_08_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_08		432064
-	906246835	LeafMovement_Low_04	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_Low_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_04		918064
-	930930447	LeafFall_Loop_v3_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_02		432064
-	949099391	LeafFall_Stop_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Stop_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Stop\LeafFall_Stop_03		648064
-	982420985	LeafFall_Start_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Start_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Start\LeafFall_Start_03		117856
-	993143814	LeafFall_Loop_v3_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_05		432064
-	1009371544	Wazo_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Wazo_05_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		324064
-	1011115143	Wazo_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\Wazo_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		486064
-	1021678743	music_loop_02	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\music_loop_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_02		5556592
-	1035585106	LeafMovement_High_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafMovement_High_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_03		918064
-	1048140128	LeafFall_Loop_v3_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_03		432064
-	1049796522	Grass_Loop_05	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\Grass_Loop\Grass_Loop_05		216064
-	1067003130	LeafFall_Loop_v3_01	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_v3_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_01		432064
-	1069931001	Grass_Loop_03	E:\TAMANOIR\Vegetal Tempo Wwise\.cache\Windows\SFX\LeafFall_Loop_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall\Grass_Loop\Grass_Loop_03		216064
+	16728652	Grass_Loop_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\Grass_Loop\Grass_Loop_02		216064
+	32979619	LeafFall_Start_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Start_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Start\LeafFall_Start_01		108064
+	59334016	LeafMovement_Low_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_Low_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_01		918064
+	85529368	Shine_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Shine_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_05		394480
+	99677188	HighFive_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\HighFive_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_02		324064
+	131979143	LeafFall_Stop_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Stop_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall_Stop\LeafFall_Stop_04		648064
+	132146298	music_loop_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\music_loop_03_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_03		5556592
+	154888131	LeafMovement_Low_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_Low_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_05		918064
+	180012928	Grass_Loop_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\Grass_Loop\Grass_Loop_04		216064
+	197288156	LeafMovement_High_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_High_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_05		918064
+	218625319	music_loop_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\music_loop_04_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_04		5556592
+	223925211	HighFive_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\HighFive_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_04		324064
+	237965506	Shine_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Shine_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_02		421048
+	268712014	LeafMovement_High_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_High_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_04		918064
+	296742418	LeafMovement_Low_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_Low_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_03		918064
+	348364339	Wazo_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Wazo_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		378064
+	368388430	LeafMovement_Low_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_Low_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_02		918064
+	411861833	LeafFall_Stop_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Stop_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall_Stop\LeafFall_Stop_01		633592
+	447039209	LeafFall_Stop_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Stop_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall_Stop\LeafFall_Stop_05		621064
+	454805968	LeafFall_Start_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Start_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Start\LeafFall_Start_02		127360
+	544509048	HighFive_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\HighFive_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_05		270064
+	577055431	LeafFall_Start_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Start_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Start\LeafFall_Start_04		101152
+	587462837	Shine_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Shine_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_03		415648
+	626665584	Grass_Loop_06	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_06_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\Grass_Loop\Grass_Loop_06		216064
+	659713395	Wazo_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Wazo_03_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		432064
+	664409511	HighFive_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\HighFive_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_03		324064
+	666594684	LeafMovement_High_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_High_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_01		918064
+	721965443	LeafFall_Loop_v3_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_04		432064
+	742124412	Shine_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Shine_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_04		388000
+	751145862	LeafFall_Loop_v3_07	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_07_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_07		432064
+	753176445	Shine_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Shine_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growth_Stop\Shine_01		420616
+	760449538	LeafFall_Stop_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Stop_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall_Stop\LeafFall_Stop_02		648064
+	765256063	LeafMovement_High_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_High_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_02		918064
+	791371447	Wazo_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Wazo_04_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		405064
+	814280512	LeafMovement_Mid	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_Mid_89A5DE52.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Mid\LeafMovement_Mid		2000800
+	814726436	LeafFall_Loop_v3_06	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_06_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_06		432064
+	834661584	HighFive_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\HighFive_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HighFive\HighFive_01		270064
+	895464548	music_loop_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\music_loop_01_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_01		5556592
+	902205088	Grass_Loop_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\Grass_Loop\Grass_Loop_01		216064
+	905433119	LeafFall_Loop_v3_08	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_08_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_08		432064
+	906246835	LeafMovement_Low_04	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_Low_04_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_Low\LeafMovement_Low_04		918064
+	930930447	LeafFall_Loop_v3_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_02_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_02		432064
+	949099391	LeafFall_Stop_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Stop_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall_Stop\LeafFall_Stop_03		648064
+	982420985	LeafFall_Start_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Start_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Start\LeafFall_Start_03		117856
+	993143814	LeafFall_Loop_v3_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_05		432064
+	1009371544	Wazo_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Wazo_05_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		324064
+	1011115143	Wazo_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\Wazo_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\Growth_Stop\Wazo_01		486064
+	1021678743	music_loop_02	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\music_loop_02_4811579D.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\music\music_loop_02		5556592
+	1035585106	LeafMovement_High_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafMovement_High_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leaf_Movement\Leaf_Movement_High\LeafMovement_High_03		918064
+	1048140128	LeafFall_Loop_v3_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_03		432064
+	1049796522	Grass_Loop_05	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_05_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\Grass_Loop\Grass_Loop_05		216064
+	1067003130	LeafFall_Loop_v3_01	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_v3_01_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\LeafFall_Loop\LeafFall_Loop_v3_01		432064
+	1069931001	Grass_Loop_03	E:\TAMANOIR\VegetalTempoV2\.cache\Windows\SFX\LeafFall_Loop_03_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeafFall\Grass_Loop\Grass_Loop_03		216064
 

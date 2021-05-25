@@ -33,11 +33,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Blossom" ID="{8FEF232C-75C8-45CC-AFD9-8B1958E2A6EA}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Movement" ID="{7753B14B-61E9-47B5-91EB-EACE41C332C8}"/>
-							<Value>0</Value>
+							<Value>10</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
